@@ -19,7 +19,39 @@
   font-style: normal;
 }
 
+/*------------Global------------*/
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
 body  {
   font-family: 'Gilroy';
 }
 
+:root {
+  --background-color: #fff;
+  --second-background-color: #f6f6f6;
+  --text-color: #000;
+  --second-text-color: #828282;
+}
+
+.main-header__language-switcher {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+}
