@@ -44,6 +44,16 @@ body  {
   font-family: 'Gilroy';
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: inherit;
+}
+
 :root {
   --background-color: #fff;
   --second-background-color: #f6f6f6;
@@ -54,4 +64,28 @@ body  {
 .main-header__language-switcher {
   writing-mode: vertical-lr;
   text-orientation: mixed;
+}
+
+.flex {
+  display: flex;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 15px;
+
 }
